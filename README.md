@@ -54,3 +54,30 @@ weather_climate_analyzer/
 └── README.md
 ```
 ---
+
+**🔧 Key Features & Workflow**
+**1. Real-Time Multi-Source Data Ingestion**
+ - Pull current and historical weather from Meteostat API
+ - Nested JSON from OpenWeather Air Pollution API
+ - Load historical temperature/precipitation from complex CSV (e.g., NOAA or NASA)
+
+**2. Data Parsing & Complex Transformation**
+ - Parse multi-nested JSON and flatten for analysis
+ - Handle mixed and missing formats (nulls, dtypes, nested fields)
+- Merge data from multiple APIs and historical files
+- Time zone normalization, rolling averages, lag analysis
+- Correlation, trend analysis, anomaly detection using NumPy
+
+**3. Analysis Module**
+ - Identify patterns in weather changes for cities/stations
+ - Detect extreme conditions using NumPy thresholds
+ - Create pivot tables, plots, and summary statistics
+ - Generate city-wise and region-wise climate reports
+
+**4. Logging & Error Handling**
+ - Use logging with rotation and custom format
+ - Gracefully handle API failures, file parsing errors, etc.
+ - Exception handling for type errors, missing fields, malformed data
+
+**5. Configuration Management**
+ - Use config.yaml and .env for storing API keys, endpoints, file paths
