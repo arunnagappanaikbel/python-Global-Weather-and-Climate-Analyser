@@ -1,0 +1,47 @@
+{
+    "North America": {
+        "Temperate": [
+            "New York",
+            "Chicago",
+            "Toronto"
+        ],
+        "Continental": [
+            "Denver",
+            "Calgary"
+        ]
+    },
+    "Europe": {
+        "Oceanic": [
+            "London",
+            "Paris",
+            "Berlin"
+        ],
+        "Mediterranean": [
+            "Rome",
+            "Barcelona",
+            "Athens"
+        ]
+    },
+    "Asia": {
+        "Humid Subtropical": [
+            "Tokyo",
+            "Shanghai",
+            "Seoul"
+        ],
+        "Tropical Monsoon": [
+            "Mumbai",
+            "Bangkok",
+            "Hanoi"
+        ]
+    },
+    "Australia": {
+        "Arid": [
+            "Perth",
+            "Alice Springs"
+        ],
+        "Temperate": [
+            "Sydney",
+            "Melbourne"
+        ]
+    }
+}

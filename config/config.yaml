@@ -1,0 +1,9 @@
+api_keys:
+  meteostat: 'ada45de1c7mshb0ca0c60a8940d2p114e2cjsnbeb0dd2302f8'
+
+defaults:
+  start_date: "2024-05-01"
+  end_date: "2024-05-28"
+  coordinates:
+    - { lat: 40.7128, lon: -74.0060 }  # NYC
+    - { lat: 51.5074, lon: -0.1278 }   # London

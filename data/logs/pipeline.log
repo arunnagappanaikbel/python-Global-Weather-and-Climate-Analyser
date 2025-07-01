@@ -1,0 +1,7 @@
+2025-05-31 14:29:02,214 - src.fetch.fetch_weather_api - INFO - fetched 1 records for 40.7128, -74.006 from 2024-05-01 to 2024-05-28 
+2025-05-31 14:29:02,229 - src.process.clean_transform - INFO - data cleaned and transformed successfuly
+2025-05-31 14:29:02,544 - src.fetch.fetch_weather_api - INFO - fetched 1 records for 51.5074, -0.1278 from 2024-05-01 to 2024-05-28 
+2025-05-31 14:29:02,557 - src.process.clean_transform - INFO - data cleaned and transformed successfuly
+2025-05-31 14:30:35,218 - src.process.analysis - INFO - Outlier detection complete: 0 outliers found.
+2025-05-31 14:40:20,637 - src.process.analysis - INFO - Climate summary computed.
+2025-05-31 14:41:52,607 - __main__ - INFO - ETL completed succesfully
